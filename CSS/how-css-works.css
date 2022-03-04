@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+
+  h1 {
+    color: hotpink;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #375e97;
+    /* text-decoration:underline dotted 10px; */
+    border-bottom: purple 10px dotted;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+            ul{
+                background-color: #eeeeee;
+                border: purple solid 5px ;
+                padding: 20px;    
+            }
+  .job-title {
+    color: #999999;
+    font-weight: bold;
+  }
+
+  a:link{
+      color: orange;
+  }
+  a:visited {
+    color: red;
+    
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: green;
+  }
