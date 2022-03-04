@@ -152,7 +152,12 @@ html {
 
 /* Backgrounds and borders */
       
-      
+.inline-table { 
+    display: inline-table; 
+    width: 128px; 
+    margin-left: 10px; 
+    border: 1px solid #cad5eb; 
+   }
       
       
       
