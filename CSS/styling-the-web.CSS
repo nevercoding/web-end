@@ -1,3 +1,5 @@
+/* CSS selectors */
+
 /* descendant combinator */
 .box p {
     color: red;
@@ -15,6 +17,351 @@ h1 + p {
     padding: .5em;
 } 
 
+/* general sibling combinator  */
+h1 ~ p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+/* <article>
+    <h1>A heading</h1>
+    <p>I am a paragraph.</p>
+    <div>I am a div</div>
+    <p>I am another paragraph.</p>
+</article> */
+/*  */
+/*  */
+/* the box model */
+
+p, 
+ul {
+  border: 3px solid rebeccapurple;
+  padding: .9em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}      
+/*     
+<p>I am a paragraph. A short one.</p>
+<ul>
+  <li>Item One</li>
+  <li>Item Two</li>
+  <li>Item Three</li>
+</ul>
+<p>I am another paragraph. Some of the <span class="block">words</span> have been wrapped in a <span>span element</span>.</p>
+     */
+     p, 
+     ul {
+       border: 2px solid rebeccapurple;
+     }
+     
+     span,
+     li {
+       border: 2px solid blue;
+     }
+     
+     ul {
+       display: inline-flex;
+       list-style: none;
+       padding: 0;
+     } 
+     
+     .inline {
+       display: inline;
+     }
+         
+
+            /* <p>
+            I am a paragraph. Some of the
+            <span>words</span> have been wrapped in a
+            <span>span element</span>.
+            </p>     
+   <ul>
+     <li>Item One</li>
+     <li>Item Two</li>
+     <li>Item Three</li>
+   </ul>
+   <p class="inline">I am a paragraph. A short one.</p>
+   <p class="inline">I am another paragraph. Also a short one.</p> */
+
+
+   /* Parts of a box
+
+   Making up a block box in CSS we have the:
+   
+       Content box: The area where your content is displayed, which can be sized using properties like width and height.
+       Padding box: The padding sits around the content as white space; its size can be controlled using padding and related properties.
+       Border box: The border box wraps the content and any padding. Its size and style can be controlled using border and related properties.
+       Margin box: The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements. Its size can be controlled using margin and related properties.
+    */
+
+/* example01 */
+    .box {
+        width: 350px;
+        height: 150px;
+        margin: 10px;
+        padding: 25px;
+        border: 5px solid black;
+      }
+      
+      /* The standard CSS box model
+
+      In the standard box model, 
+      if you give a box a width and a height attribute, 
+      this defines the width and height of the content box.
+       Any padding and border is then added to that width and height to get the total size taken up by the box. 
+       This is shown in the image below.
+      
+      If we assume that a box has the following CSS defining 
+      width, height, margin, border, and padding: */
+
+
+      /* By default, browsers use the standard box model.
+       If you want to turn on the alternative model for an element, you do so by setting box-sizing: border-box on it. By doing this, you are telling the browser to use the border box, as shown above, as your defined area. */
+
+.box {
+  box-sizing: border-box;
+}
+
+      
+/* If you want all of your elements to use the alternative box model, 
+and this is a common choice among developers, 
+set the box-sizing property on the <html> element, 
+then set all other elements to inherit that value, 
+as seen in the snippet below. If you want to understand the thinking behind this, see the CSS Tricks article on box-sizing. */
+
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Backgrounds and borders */
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
 
 
@@ -33,3 +380,33 @@ h1 + p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
