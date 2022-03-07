@@ -161,7 +161,12 @@ html {
       
       
       
-      
+   .box {
+    border: 5px solid darkblue;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0vh;
+  }
       
       
       
